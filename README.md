@@ -1,0 +1,3 @@
+# Finding Mistakes in a Spreadsheet.py
+
+This script uses the `ezsheets` library to open a specific Google Spreadsheet by its key. It iterates through the rows of the first sheet, starting at row 2 (skipping a presumed header row). For each row, it checks whether the product of the integer values in the first two columns equals the integer value in the third column. If a row fails this check, the script prints the row number and immediately stops.
